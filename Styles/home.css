@@ -1,0 +1,251 @@
+
+@font-face {
+    font-family: 'Avenir Roman';
+    
+    src: local('Avenir Roman'), url('../Assets/fonts/avenir-webfont/avenir_roman_12.woff') format('woff');
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #171708;
+    font-family: 'Avenir Roman';
+}
+
+#hero .navi{
+    display: flex;
+    justify-content: space-around;
+}
+#hero .navi h3{
+    color: #c8a37d;
+    font-size: 30px;
+    font-weight: bold;
+}
+#hero .navi .navi-bar{
+    color:#f1f1f1;
+    padding-top: 40px;
+}
+#hero .navi .navi-bar a:hover{
+    color: #c8a37d;
+    padding-top: 40px;
+    text-decoration: none;
+   
+}
+#hero .navi .navi-bar a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+#hero .navi button{
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: #39471e;
+    color: #c8a37d;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+#hero .navi button:hover{
+    border: 1px solid #c8a37d;
+    border-radius: 20px;
+}
+.hero-body{
+    display: flex;
+    gap: 20px;
+}
+.hero-body img{
+    width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.hero-body-words p{
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.hero-body-words h2{
+    color: #f1f1f1;
+    font-size: 40px;
+
+}
+.hero-body-words .buynow{
+    font-size: 25px;
+    padding: 10px;
+    background-color: #39471e;
+    color: #c8a37d;
+    border: none;
+    border-radius: 30px;
+}
+.hero-body-words .buynow:hover{
+    border: 1px solid #c8a37d;
+}
+.hero-body-words .learn-more{
+    padding: 10px;
+    background-color: #39471e;
+    font-size: 25px;
+    color: #c8a37d;
+    border: none;
+    border-radius: 30px;
+}
+.hero-body-words .learn-more:hover{
+    border: 1px solid #c8a37d;
+}
+
+.hero-body-words .hero-buttons{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+#deals{
+    margin-top: 20px;
+    background-color: #2d2e17;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url("../Assets/Imgs/background.jpg");
+    background-size: cover;
+    filter: brightness(80%);
+}
+#deals h2{
+    text-align: center;
+    font-size: 30px;
+    color: #f2f2f2;
+}
+.deals-collection{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.deals-item{
+    padding: 30px;
+    place-self: center;
+    background-color: #c8a37d;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.deals-item img{
+    border-radius: 20px;
+    width: 150px;
+    height: 200px;
+}
+.deals-item h4{
+    text-align: center;
+    color: #f2f2f2;
+}
+.deals-item button{
+    background-color: #2d2e17;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.deals-item button:hover{
+    border:1px solid #2d2e17;
+    color: #ffe6cd;
+}
+.See-more{
+    display: flex;
+    justify-content: center;
+}
+.See-more button{
+    background-color: #2d2e17;
+    color: #c8a37d;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 30px;
+
+}
+.See-more button:hover{
+    background-color:  #c8a37d;
+    color: #2d2e17;
+}
+#blog h2{
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 40px;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+}
+.blog-text{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+.blog-container .blog-text{
+    color: #f2f2f2;
+}
+.blog-button{
+    display: flex;
+    justify-content: center;
+}
+.blog-button button{
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.blog-button button:hover{
+    background-color: #c8a37d;
+    color: #f2f2f2;
+}
+#about{
+    display: flex;
+    color: #f2f2f2;
+}
+.about-text{
+    text-align: center;
+    font-size: 25px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.service{
+    border: 2px solid #f2f2f2;
+    border-radius: 40px;
+}
+.service h2{
+    text-align: center;
+}
+.service:hover{
+    background-color: #c8a37d;
+}
+.call{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #171708;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.call:hover{
+    background-color: #39471e;
+    color: #c8a37d;
+}
+footer{
+    background-color: #ffe6cd;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: #171708;
+}
+footer a:hover{
+    font-size: 20px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
